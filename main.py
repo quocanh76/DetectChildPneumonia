@@ -3,8 +3,6 @@ import numpy as np
 import cv2
 import os
 
-model_path = "model.keras"
-
 def load_model(model_path):
     """
     Load the pre-trained .keras model from the given path.
